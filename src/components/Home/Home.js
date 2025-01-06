@@ -35,11 +35,11 @@ function Home() {
                         <div className="max-w-xl sm:mt-1 mt-20 space-y-8 text-center sm:text-right sm:ml-auto">
                             <img
                                 src="./myph.jpg"
-                                className="h-32 rounded-3xl text-center"
+                                className="h-32 rounded-3xl ml-20  border-blue-500  text-center"
                                 alt="Logo"
                             />
-                            <h2 className="text-5xl font-bold sm:text-6xl">
-                                👋 Hii I'm Harsh
+                            <h2 className="text-2xl font-bold sm:text-3xl    ">
+                                <span  className=''>👋</span>  Hii I'm Harsh
                             </h2>
                             <h3 className='font-bold mt-5 text-lg sm:text-2xl transition-transform duration-500 transform hover:scale-105'>
                                 {textArray.map((text, index) => (
@@ -51,7 +51,7 @@ function Home() {
                             <span className="hidden sm:block text-4xl">MERN Stack Developer</span>
                             <Link
                                 to="/about" // Link to the About page
-                                className="inline-flex text-white items-center px-6 py-3 font-medium rounded-lg hover:opacity-75"
+                                className=" animate-pulse bg-black inline-flex text-yellow-400 items-center px-6 py-3 font-bold rounded-lg  hover:opacity-75"
                             >
                                 Go to About Page
                             </Link>
@@ -59,45 +59,48 @@ function Home() {
                     </div>
                 </aside>
 
-                <div className="grid place-items-center sm:mt-20">
+                <div className=" border-x-transparent bg-slate-50 grid place-items-center sm:mt-20">
                     <h2 className="text-3xl font-bold text-center mb-8">Technologies I've Worked With</h2>
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                         <div className="flex flex-col items-center transition-transform transform hover:scale-110">
-                            <img src={'./python.svg'} alt="Python" className="h-16 w-16 animate-bounce" />
-                            <span className="mt-2">Python</span>
+                            <img src={'./python.svg'} alt="Python" className="h-16 w-16 animate-spin " />
+                            <span className="mt-2 font-bold">Python</span>
                         </div>
                         <div className="flex flex-col items-center transition-transform transform hover:scale-110">
                             <img src={'./tailwind-css.svg'} alt="Tailwind CSS" className="h-16 w-16 animate-bounce" />
-                            <span className="mt-2">Tailwind CSS</span>
+                            <span className="mt-2 font-bold ">Tailwind CSS</span>
                         </div>
                         <div className="flex flex-col items-center transition-transform transform hover:scale-110">
                             <img src={'./firebase.svg'} alt="Firebase" className="h-16 w-16 animate-bounce" />
-                            <span className="mt-2">Firebase</span>
+                            <span className="mt-2 font-bold">Firebase</span>
                         </div>
-                      
                         <div className="flex flex-col items-center transition-transform transform hover:scale-110">
-                            <img src={'./Javascript.png'} alt="JavaScript" className="h-16 w-16 animate-bounce" />
-                            <span className="mt-2">JavaScript</span>
+                            <img src={'./c++ file.png'} alt="C++" className="h-16 w-16 animate-bounce" />
+                            <span className="mt-2 font-bold">C++</span>
+                        </div>
+                        <div className="flex flex-col items-center transition-transform transform hover:scale-110">
+                            <img src={'./javascript.png'} alt="JavaScript" className="h-16 w-16 animate-bounce" />
+                            <span className="mt-2 font-bold">JavaScript</span>
                         </div>
                         <div className="flex flex-col items-center transition-transform transform hover:scale-110">
                             <img src={'./html.svg'} alt="HTML" className="h-16 w-16 animate-bounce" />
-                            <span className="mt-2">HTML</span>
+                            <span className="mt-2 font-bold">HTML</span>
                         </div>
                         <div className="flex flex-col items-center transition-transform transform hover:scale-110">
                             <img src={'./react.svg'} alt="React" className="h-16 w-16 animate-bounce" />
-                            <span className="mt-2">React</span>
+                            <span className="mt-2 font-bold">React</span>
                         </div>
                         <div className="flex flex-col items-center transition-transform transform hover:scale-110">
                             <img src={'./Express-js.png'} alt="Express" className="h-16 w-16 animate-bounce" />
-                            <span className="mt-2">Express</span>
+                            <span className="mt-2 font-bold">Express</span>
                         </div>
                         <div className="flex flex-col items-center transition-transform transform hover:scale-110">
                             <img src={'./mongodb.svg'} alt="MongoDB" className="h-16 w-16 animate-bounce" />
-                            <span className="mt-2">MongoDB</span>
+                            <span className="mt-2 font-bold">MongoDB</span>
                         </div>
                         <div className="flex flex-col items-center transition-transform transform hover:scale-110">
                             <img src={'./nodejs.svg'} alt="Node" className="h-16 w-16 animate-bounce" />
-                            <span className="mt-2">Node</span>
+                            <span className="mt-2 font-bold">Node</span>
                         </div>
                     </div>
                 </div>
