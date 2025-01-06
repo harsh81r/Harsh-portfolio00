@@ -74,12 +74,9 @@ function Home() {
                             <img src={'./firebase.svg'} alt="Firebase" className="h-16 w-16 animate-bounce" />
                             <span className="mt-2 font-bold">Firebase</span>
                         </div>
+                      
                         <div className="flex flex-col items-center transition-transform transform hover:scale-110">
-                            <img src={'./c++ file.png'} alt="C++" className="h-16 w-16 animate-bounce" />
-                            <span className="mt-2 font-bold">C++</span>
-                        </div>
-                        <div className="flex flex-col items-center transition-transform transform hover:scale-110">
-                            <img src={'./javascript.png'} alt="JavaScript" className="h-16 w-16 animate-bounce" />
+                            <img src={'./Javascript.png'} alt="JavaScript" className="h-16 w-16 animate-bounce" />
                             <span className="mt-2 font-bold">JavaScript</span>
                         </div>
                         <div className="flex flex-col items-center transition-transform transform hover:scale-110">
