@@ -53,7 +53,7 @@ function Home() {
                                 to="/about" // Link to the About page
                                 className=" animate-pulse bg-black inline-flex text-yellow-400 items-center px-6 py-3 font-bold rounded-lg  hover:opacity-75"
                             >
-                                Go to About Page
+                                visit-project's
                             </Link>
                         </div>
                     </div>
