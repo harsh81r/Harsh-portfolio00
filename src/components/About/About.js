@@ -35,8 +35,8 @@ export default function ImgMediaCard() {
   return (
     <div className="bg-indigo-950">
       <div className="max-w-screen-md mx-auto px-4 py-6 text-center">
-        <h1 className="text-slate-100 text-xl font-bold mb-4">About Us</h1>
-        <p className="text-gray-200 mb-2">Welcome to our project! Learn more about us at:</p>
+        <h1 className="text-slate-100 text-xl font-bold mb-4">My-Project</h1>
+        <p className="text-gray-200 mb-2">Welcome to our project </p>
         <Button 
           className="inline-block bg-blue-500 text-white rounded-lg px-5 py-2 hover:bg-white-100 transition duration-300" 
           onClick={navigateToLinkedIn}
