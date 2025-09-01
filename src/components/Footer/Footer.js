@@ -71,10 +71,10 @@ import { Link } from 'react-router-dom';
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-white sm:text-center">
                         ©2024
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline">
+                        <a href="https://harsh81r.com/" className="hover:underline">
                        <h2>   Harsh khare</h2>    
                         </a>
-                        . All Rights Reserved.
+                      
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link to="#" className="text-gray-500 hover:text-gray-900">
