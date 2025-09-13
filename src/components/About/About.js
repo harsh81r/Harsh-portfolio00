@@ -17,7 +17,6 @@ export default function ImgMediaCard() {
   const navigateToTravelo = () => {
     window.location.href = "https://travelo-app-pi.vercel.app"; // Replace with your actual URL
   };
-
   // Function to navigate to Background Color Change App
   const navigateToBackgroundColorChange = () => {
     window.location.href = "https://harsh81r.github.io/BackgroundColorChange_EverySecond/"; // Replace with your actual URL
@@ -53,7 +52,7 @@ export default function ImgMediaCard() {
                   component="img"
                   alt="Travelo App"
                   height="140"
-                  image="https://media.licdn.com/dms/image/v2/D5622AQHGPfSxzppHtA/feedshare-shrink_2048_1536/B56ZPHJvXVHoAo-/0/1734213041305?e=1738800000&v=beta&t=748gV5iom3hDlGpOpPU2IvsdexVucYpKa5M18MM5yWQ"
+                  image="https://media.licdn.com/dms/image/v2/D5622AQHGPfSxzppHtA/feedshare-shrink_2048_1536/B56ZPHJvXVHoAo-/0/1734213041305?e=1760572800&v=beta&t=J_lvzgAF5_p9fKBpDxaoLGnQW6f_LV7wOpi-qFj1Cak"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
